@@ -4,6 +4,7 @@ public class Professor {
 	private String nome;
 	private String login;
 	private String senha;
+	private String vinculo;//vinculo aqui seria com alguma intituição no caso só professores com 
 	
 	public String getNome() {
 		return nome;
@@ -22,5 +23,11 @@ public class Professor {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
+	}
+	public String getVinculo() {
+		return vinculo;
+	}
+	public void setVinculo(String vinculo) {
+		this.vinculo = vinculo;
 	}
 }
